@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda:wght@300..900&family=Protest+Riot&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(57, 153, 153);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    width: 100px;
+}
+
+header ul li{
+    margin: 20px;
+    color: black;
+}
+img {
+    width: 300px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(5, 5, 104);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-family: Cambria, Cochin, Gorgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(161, 219, 200);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 20px;
+    margin: 20px;
+}
+.precentasion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.precentasion h1{
+    font-size: 35px;
+    color: rgb(8, 8, 71);
+}
+
+.precentasion p{
+    width: 70%;
+    padding: 30px;
+    font-family: "Concert One", sans-serif;
+    font-size: 30px;
+}
+
+.compras{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    align-items: center
+}
+.compras h1{
+    font-size: 20px;
+    color: rgb(8, 8, 71);  
+}
